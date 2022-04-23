@@ -2,6 +2,7 @@
 
 :root {
     box-sizing: border-box;
+    margin: 0; padding: 0;
 }
 
 *,
@@ -727,12 +728,17 @@ nav.stick {
         padding: 1rem 2rem;
     }
 
-    .doctor_content {
+   /* .doctor_content {
+        margin: auto;
         width: 22rem;
     }
-
+*/
     #testimonials p {
         font-size: 1rem;
         line-height: 1.5;
     }
+    iframe {
+        width: 300px;
+    }
 }
+
